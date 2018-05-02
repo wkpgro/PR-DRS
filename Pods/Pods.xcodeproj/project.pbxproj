@@ -7,39 +7,305 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E640E4648766BE3F1167FEC41B17D8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A5FF75646181F0309DD7F1AFF48D1190 /* Pods-PR DRS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E693B146224F1AF81CEDBB4FBDE99B /* Pods-PR DRS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE93C0B78B8273DD36ED852604F874DF /* Pods-PR DRS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF142AF901F00AC25C3B22281C74DF /* Pods-PR DRS-dummy.m */; };
+		006670083CA04EBBCB8353CDF96C056D /* JGProgressHUDPieIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9899A532BC5B3849D5DDFD613440BEC /* JGProgressHUDPieIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01E784EF8E348FCDD0B6B566A0ED7704 /* jg_hud_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B1A6D08306C4F3D86112512D6185E1 /* jg_hud_success.png */; };
+		03F2B415369BC32FE008EBA6080A94A1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6C6BA5E90F46970903C1C4FA64246 /* SwiftyJSON.swift */; };
+		068FD986FDBFB247E2DC26C5D90400CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9015163C2DE081798A120F6A815D39 /* Foundation.framework */; };
+		10B9CD2008029B7E42EEDDAA60C2CB27 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2A9835C30DAD696B89A578ECDC6E2 /* CoreImage.framework */; };
+		10FFBF9CF525041967FEFB1F1C42E5CB /* jg_hud_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1BBB166857E8B165B2E3B24758535 /* jg_hud_error.png */; };
+		1425E14677E3EB1E2161902BD072D778 /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32888B2300F5F67023B0DF0ABAFFA264 /* JGProgressHUD.m */; };
+		1FC0EA7D844EC71CC78DF93DD603BBA3 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11C7564A4DE5D749F54A2FF96E8D1D2 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2247A6900C00E630BDD11E39D66E04A0 /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD87E0493318EFA5472135957CB9C612 /* JGProgressHUDPieIndicatorView.m */; };
+		224CE7708D73AC47187E3C502B92313E /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6447452CD4D50543905883B117979 /* JGProgressHUDImageIndicatorView.m */; };
+		24C6C04A434B304E50438266870B9BD5 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442CBDA42210066A20737221C78A1D2 /* JGProgressHUDIndeterminateIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB9C9E4C04F45BD83B9D897243554CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932151771B1B00C621394162B4B95B7B /* UIKit.framework */; };
+		31DCADA4981748D9EE0312138DB5F99A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B770BDA52FCEE18019EC2C8C26E4D0 /* AVFoundation.framework */; };
+		36FECB79A4EC4558774C2C6C7BF1D22C /* jg_hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF09344ADA15D166B5B6C709F6FCFAE6 /* jg_hud_success@2x.png */; };
+		419289ACB12032C10847643F9D94733C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA27CCB26BD52731A5774567D9E18112 /* CoreMedia.framework */; };
+		4837ED52A86D80AFF84771AC90A3438E /* JGProgressHUDRingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4D39184A44805FDC19C6CF0CF214A6 /* JGProgressHUDRingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D98042BE049BC90B4293BFC006A22B7 /* JGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DD643B9FE4F34752199D8EF6FCFE6E /* JGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A4DFD3C63113EEF00610FECC7E32A8 /* JGProgressHUDIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A18776DF316F3C27EF75BAB873A06C /* JGProgressHUDIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		579274FB622AD27CE32EA6D922EC7961 /* JGProgressHUDShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = B6845A4C68AC8C04217D4174D15F70B4 /* JGProgressHUDShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58C7723C825970DB6A486D3650C8C887 /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC516163247EF9DC90CF5B7BDA44462 /* JGProgressHUDSuccessIndicatorView.m */; };
+		5EA91EE17DB5E996DB3364C48CAAD1E9 /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7123382C2C159559ADD28F6BC057B06F /* JGProgressHUDFadeAnimation.m */; };
+		64C4AB73E930397BAAC8F4A46D7A84FD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD25DA712A1F66FE9C48BCFEA7802DC8 /* GLKit.framework */; };
+		6A21E8F55DD590161A13A1F524ED08E5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D432270453A899765060108692D03A1F /* CoreVideo.framework */; };
+		6DD500FC7E626ABF6DACA1F7DEB74656 /* Pods-PR DRS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E693B146224F1AF81CEDBB4FBDE99B /* Pods-PR DRS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7217359DE16E0EB6A8F62A10C53E7AF5 /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C91EA8A653BB984944E2E0A3A7EBA0 /* JGProgressHUDAnimation.m */; };
+		72D6F028A3D9620CAA75EEF47AB6E944 /* JGProgressHUDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C59E651F7E517A2342EC190272CAA045 /* JGProgressHUDAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77DC4C531B6C5863D948D8AB196D743A /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAFA0512DF0E8FF8AC1639742C7DCAC /* JGProgressHUDErrorIndicatorView.m */; };
+		7C9E7256BF49FE3EA97F6C08F93EA9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9015163C2DE081798A120F6A815D39 /* Foundation.framework */; };
+		7FAB4AF93213FFA9369E238F207CFD36 /* jg_hud_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446212E4F5CD0DA135A0E5EB4809FFF3 /* jg_hud_error@3x.png */; };
+		802CD12B7ADA90E34BD6A34B50DD867D /* jg_hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC8B052C130B8925CDB42BA1CED5DB4 /* jg_hud_success@3x.png */; };
+		80848982010927FBC4223D4F3230429D /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E0F4C38474C42FDB012FA221C2099B /* JGProgressHUDFadeZoomAnimation.m */; };
+		87600F321694C6155DA75A280136706B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9015163C2DE081798A120F6A815D39 /* Foundation.framework */; };
+		92658D186BE2D96266DB8C3B64548120 /* JGProgressHUDFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B17C89EE7732FBA43B4CAE4334484B /* JGProgressHUDFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92CE080072076C183E6A61DDCC1D7BA8 /* JGProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E16C3DF1A057293FDDC30D705E3344 /* JGProgressHUD-dummy.m */; };
+		9B66D002A8FCE83414C688FE05EC7478 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4FA38DD3BBA07A3EFD04FBFC58E2 /* SwiftyJSON-dummy.m */; };
+		A1A7F35C9795D3F485AE056CC1C006E7 /* jg_hud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8048F2729C44F2D8CFA63F76ABF5696 /* jg_hud_error@2x.png */; };
+		A734907A30CE703BF0963071AA9BE2E2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25CE0029FC2C7D04B1F402973D445DE /* ImageIO.framework */; };
+		A8FC494ADC291215197C8C5CD0132B87 /* JGProgressHUD-Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FF2018A7CF1AA8D77EAF8832ED9729 /* JGProgressHUD-Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4C7DAADD78F7704818BCCD5A0A6F22 /* JGProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD9B389FB6D3156D8DC86B83B5360DA /* JGProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C14937C2B582737F2509646A538F0A4F /* JGProgressHUDFadeZoomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 475A0C8E7876ABD88083958A5309EE47 /* JGProgressHUDFadeZoomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1705A813E99E3638610740C30CE14F2 /* JGProgressHUDSuccessIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFB453556FF2077ED0E58ADA0783463 /* JGProgressHUDSuccessIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7282F6951B56F0485EC941897556B58 /* IPDFCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8182ABABA58AD303C5F53C7557011CBD /* IPDFCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C73A8F0D34070B6882F323BF6F9AA8 /* JGProgressHUDErrorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = E08E56BC0529F9CE51C1B3DB8934CB78 /* JGProgressHUDErrorIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D49255E3560DFD9822EBF35B78A7A18B /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDDC7AE488008D5AD1861A04C9375BD /* JGProgressHUDRingIndicatorView.m */; };
+		DC52ACA0AFC3F54507EDBC26C545FEB0 /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEDF927BEE59D5CEA15488B46FB5C4B /* JGProgressHUDIndicatorView.m */; };
+		DFC3BA9275806B414CD0F8E7F3A5C33E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5060F3423798F84FB9F8D86CF32934ED /* QuartzCore.framework */; };
+		E398879122560D99B5C132CB9145E0BC /* IPDFCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4EF69CF872133BBE36523E04924DF /* IPDFCameraViewController-dummy.m */; };
+		E5CB568F41666F371974833E529B1D14 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 723B35201D26AA18FB1C494826D74DE5 /* JGProgressHUDShadow.m */; };
+		EEB7965462B49B5FEF9C9CE969545A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9015163C2DE081798A120F6A815D39 /* Foundation.framework */; };
+		F20E628EBD2A56C22229318EBD7C8354 /* Pods-PR DRS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF142AF901F00AC25C3B22281C74DF /* Pods-PR DRS-dummy.m */; };
+		F4B2C89E7447474FE8028AE40DD85D8C /* IPDFCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 435E716683C8F6FB64EB61238F6898B4 /* IPDFCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71845788EBB3713A2DBE2E2FFFB4C1F /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FEEB2D5D6E23A41CE4FF1FF335D51 /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		F9A2AB6DD65D73DD47B61F31B5853FA5 /* IPDFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A480F1070F4B9042C1380786E92C2B07 /* IPDFCameraViewController.m */; };
+		FB166085D21BB1A54E0ECA19B688671E /* JGProgressHUDImageIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D7286CBF658131AF9933FDBFAD2070 /* JGProgressHUDImageIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		31041BB2E775A5E9B22054A616BD43B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608D70C470DD938024DF8CC80DC93BFF;
+			remoteInfo = SwiftyJSON;
+		};
+		3D2F387B3E5C9A8EDCF917E6D286D586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E03D0814E1E093332D554182C4CF43C;
+			remoteInfo = IPDFCameraViewController;
+		};
+		98CB379E65CAB13178E48EAC161F9490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2C48CA562773165FC94C4BDA600CB8;
+			remoteInfo = JGProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0A9015163C2DE081798A120F6A815D39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0AF6447452CD4D50543905883B117979 /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDImageIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		1442CBDA42210066A20737221C78A1D2 /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndeterminateIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		15DD643B9FE4F34752199D8EF6FCFE6E /* JGProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUD.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.h; sourceTree = "<group>"; };
 		1ABB9531661650FA7AEE8F9D92DEA40A /* Pods-PR DRS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PR DRS.release.xcconfig"; sourceTree = "<group>"; };
+		1AC8B052C130B8925CDB42BA1CED5DB4 /* jg_hud_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_success@3x.png"; path = "JGProgressHUD/Resources/jg_hud_success@3x.png"; sourceTree = "<group>"; };
+		1F4D39184A44805FDC19C6CF0CF214A6 /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDRingIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
 		1FA0BCB35698F8AE07578D6D132C0A9D /* Pods-PR DRS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PR DRS.modulemap"; sourceTree = "<group>"; };
 		1FDF142AF901F00AC25C3B22281C74DF /* Pods-PR DRS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PR DRS-dummy.m"; sourceTree = "<group>"; };
-		316BF51193B7EBC0B386FFC9E8A2DA7C /* Pods_PR_DRS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PR_DRS.framework; path = "Pods-PR DRS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22929DE3840E32E80E58205F52C29D80 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		24B770BDA52FCEE18019EC2C8C26E4D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		26FC8BD4070AA0084CBCD2B8BD55C714 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7FEEB2D5D6E23A41CE4FF1FF335D51 /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndeterminateIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		32888B2300F5F67023B0DF0ABAFFA264 /* JGProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUD.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.m; sourceTree = "<group>"; };
 		403D843B2E94952C1A5AC19E3759CFEB /* Pods-PR DRS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PR DRS-resources.sh"; sourceTree = "<group>"; };
+		430F6E86005B6560CF56B1EDFB19574C /* IPDFCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IPDFCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		435E716683C8F6FB64EB61238F6898B4 /* IPDFCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPDFCameraViewController.h; path = IPDFCameraViewController/IPDFCameraViewController.h; sourceTree = "<group>"; };
+		446212E4F5CD0DA135A0E5EB4809FFF3 /* jg_hud_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_error@3x.png"; path = "JGProgressHUD/Resources/jg_hud_error@3x.png"; sourceTree = "<group>"; };
+		475A0C8E7876ABD88083958A5309EE47 /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeZoomAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
 		4CB4575881DE0A37976B2A76AA857BC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5060F3423798F84FB9F8D86CF32934ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		56754E470EE2027F0D33974D136A6E87 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD60D95759B6940046D4E6F34A9E7C2 /* IPDFCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IPDFCameraViewController.modulemap; sourceTree = "<group>"; };
 		62E693B146224F1AF81CEDBB4FBDE99B /* Pods-PR DRS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PR DRS-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69B84D341323DFDDA26AF1533B2B36F3 /* Pods-PR DRS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PR DRS-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AF6C6BA5E90F46970903C1C4FA64246 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		6B1C36A9C7BB0733FBAA81150518A08C /* IPDFCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IPDFCameraViewController.framework; path = IPDFCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA4EF69CF872133BBE36523E04924DF /* IPDFCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IPDFCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		6FE4E513A4B86F9BD7F5A4F8224C0B39 /* JGProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		7123382C2C159559ADD28F6BC057B06F /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		723B35201D26AA18FB1C494826D74DE5 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDShadow.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.m; sourceTree = "<group>"; };
+		791FE19EFF118E1B476D0C31D70FD2A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D55C88ECB17D2412998FBAF19015926 /* JGProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGProgressHUD.modulemap; sourceTree = "<group>"; };
+		8182ABABA58AD303C5F53C7557011CBD /* IPDFCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IPDFCameraViewController-umbrella.h"; sourceTree = "<group>"; };
 		924E9EAE5AE6846F868F0FE9D8867B33 /* Pods-PR DRS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PR DRS.debug.xcconfig"; sourceTree = "<group>"; };
+		932151771B1B00C621394162B4B95B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E0F4C38474C42FDB012FA221C2099B /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeZoomAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		97B1A6D08306C4F3D86112512D6185E1 /* jg_hud_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jg_hud_success.png; path = JGProgressHUD/Resources/jg_hud_success.png; sourceTree = "<group>"; };
+		9CEDF927BEE59D5CEA15488B46FB5C4B /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		9FB1BBB166857E8B165B2E3B24758535 /* jg_hud_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jg_hud_error.png; path = JGProgressHUD/Resources/jg_hud_error.png; sourceTree = "<group>"; };
+		A11C7564A4DE5D749F54A2FF96E8D1D2 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		A1B2A9835C30DAD696B89A578ECDC6E2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		A480F1070F4B9042C1380786E92C2B07 /* IPDFCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IPDFCameraViewController.m; path = IPDFCameraViewController/IPDFCameraViewController.m; sourceTree = "<group>"; };
+		A6B17C89EE7732FBA43B4CAE4334484B /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		AD25DA712A1F66FE9C48BCFEA7802DC8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF8729D21300EF5439B8032892B13D30 /* Pods_PR_DRS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PR_DRS.framework; path = "Pods-PR DRS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25CE0029FC2C7D04B1F402973D445DE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B6845A4C68AC8C04217D4174D15F70B4 /* JGProgressHUDShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDShadow.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.h; sourceTree = "<group>"; };
+		B75FF60A2F98E7E0B8B078CC0F0E807A /* IPDFCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IPDFCameraViewController.xcconfig; sourceTree = "<group>"; };
+		B8E1B953C43EFA6D0E93BAA7F21F5626 /* JGProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGProgressHUD.xcconfig; sourceTree = "<group>"; };
+		BDAFA0512DF0E8FF8AC1639742C7DCAC /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDErrorIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		BDC7703C517F06D37522BFF8BEB8BC7A /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGProgressHUD.framework; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF09344ADA15D166B5B6C709F6FCFAE6 /* jg_hud_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_success@2x.png"; path = "JGProgressHUD/Resources/jg_hud_success@2x.png"; sourceTree = "<group>"; };
+		C1C420CCC04EE030AD26265E25856923 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		C59E651F7E517A2342EC190272CAA045 /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		C8048F2729C44F2D8CFA63F76ABF5696 /* jg_hud_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_error@2x.png"; path = "JGProgressHUD/Resources/jg_hud_error@2x.png"; sourceTree = "<group>"; };
+		CA27CCB26BD52731A5774567D9E18112 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		CAC516163247EF9DC90CF5B7BDA44462 /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDSuccessIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		CBFB453556FF2077ED0E58ADA0783463 /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDSuccessIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		D0D7286CBF658131AF9933FDBFAD2070 /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDImageIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		D432270453A899765060108692D03A1F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
 		DB7B9EC44D8BD70F726E827FF50D2A0E /* Pods-PR DRS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PR DRS-frameworks.sh"; sourceTree = "<group>"; };
+		DBD9B389FB6D3156D8DC86B83B5360DA /* JGProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		DD49A2816A1FD73A1964B82AF65DC2B1 /* Pods-PR DRS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PR DRS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD87E0493318EFA5472135957CB9C612 /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDPieIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		E08E56BC0529F9CE51C1B3DB8934CB78 /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDErrorIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		E4C91EA8A653BB984944E2E0A3A7EBA0 /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		E8E16C3DF1A057293FDDC30D705E3344 /* JGProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E9899A532BC5B3849D5DDFD613440BEC /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDPieIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		EA7B0E90F9BABE1F35F051E3A3214839 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A18776DF316F3C27EF75BAB873A06C /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		F6A8A909E697A15DCAF75044F7956BF5 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		F6AB4FA38DD3BBA07A3EFD04FBFC58E2 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		F7FF2018A7CF1AA8D77EAF8832ED9729 /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JGProgressHUD-Defines.h"; path = "JGProgressHUD/JGProgressHUD/JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		FBDDC7AE488008D5AD1861A04C9375BD /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDRingIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1804AA5A628AF59D5EEB69FDD04C2D40 /* Frameworks */ = {
+		37AC042E5C9F7E7A00F3B87EB10DEB49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E640E4648766BE3F1167FEC41B17D8B /* Foundation.framework in Frameworks */,
+				87600F321694C6155DA75A280136706B /* Foundation.framework in Frameworks */,
+				DFC3BA9275806B414CD0F8E7F3A5C33E /* QuartzCore.framework in Frameworks */,
+				2BB9C9E4C04F45BD83B9D897243554CF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9458C1C67E57060B513303C0DA8AFA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9E7256BF49FE3EA97F6C08F93EA9E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16052DDA952B48B0D67D9522BB6532B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DCADA4981748D9EE0312138DB5F99A /* AVFoundation.framework in Frameworks */,
+				10B9CD2008029B7E42EEDDAA60C2CB27 /* CoreImage.framework in Frameworks */,
+				419289ACB12032C10847643F9D94733C /* CoreMedia.framework in Frameworks */,
+				6A21E8F55DD590161A13A1F524ED08E5 /* CoreVideo.framework in Frameworks */,
+				EEB7965462B49B5FEF9C9CE969545A24 /* Foundation.framework in Frameworks */,
+				64C4AB73E930397BAAC8F4A46D7A84FD /* GLKit.framework in Frameworks */,
+				A734907A30CE703BF0963071AA9BE2E2 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD08A254F81D9B0283A08EAFE0C4785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068FD986FDBFB247E2DC26C5D90400CE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0424B2B23D4139092C0C9A7DF7BA95E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				791FE19EFF118E1B476D0C31D70FD2A2 /* Info.plist */,
+				5FD60D95759B6940046D4E6F34A9E7C2 /* IPDFCameraViewController.modulemap */,
+				B75FF60A2F98E7E0B8B078CC0F0E807A /* IPDFCameraViewController.xcconfig */,
+				6FA4EF69CF872133BBE36523E04924DF /* IPDFCameraViewController-dummy.m */,
+				430F6E86005B6560CF56B1EDFB19574C /* IPDFCameraViewController-prefix.pch */,
+				8182ABABA58AD303C5F53C7557011CBD /* IPDFCameraViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IPDFCameraViewController";
+			sourceTree = "<group>";
+		};
+		16D70769E9CCB1160C0CB886209AC3F9 /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				15DD643B9FE4F34752199D8EF6FCFE6E /* JGProgressHUD.h */,
+				32888B2300F5F67023B0DF0ABAFFA264 /* JGProgressHUD.m */,
+				F7FF2018A7CF1AA8D77EAF8832ED9729 /* JGProgressHUD-Defines.h */,
+				C59E651F7E517A2342EC190272CAA045 /* JGProgressHUDAnimation.h */,
+				E4C91EA8A653BB984944E2E0A3A7EBA0 /* JGProgressHUDAnimation.m */,
+				E08E56BC0529F9CE51C1B3DB8934CB78 /* JGProgressHUDErrorIndicatorView.h */,
+				BDAFA0512DF0E8FF8AC1639742C7DCAC /* JGProgressHUDErrorIndicatorView.m */,
+				A6B17C89EE7732FBA43B4CAE4334484B /* JGProgressHUDFadeAnimation.h */,
+				7123382C2C159559ADD28F6BC057B06F /* JGProgressHUDFadeAnimation.m */,
+				475A0C8E7876ABD88083958A5309EE47 /* JGProgressHUDFadeZoomAnimation.h */,
+				96E0F4C38474C42FDB012FA221C2099B /* JGProgressHUDFadeZoomAnimation.m */,
+				D0D7286CBF658131AF9933FDBFAD2070 /* JGProgressHUDImageIndicatorView.h */,
+				0AF6447452CD4D50543905883B117979 /* JGProgressHUDImageIndicatorView.m */,
+				1442CBDA42210066A20737221C78A1D2 /* JGProgressHUDIndeterminateIndicatorView.h */,
+				2D7FEEB2D5D6E23A41CE4FF1FF335D51 /* JGProgressHUDIndeterminateIndicatorView.m */,
+				F5A18776DF316F3C27EF75BAB873A06C /* JGProgressHUDIndicatorView.h */,
+				9CEDF927BEE59D5CEA15488B46FB5C4B /* JGProgressHUDIndicatorView.m */,
+				E9899A532BC5B3849D5DDFD613440BEC /* JGProgressHUDPieIndicatorView.h */,
+				DD87E0493318EFA5472135957CB9C612 /* JGProgressHUDPieIndicatorView.m */,
+				1F4D39184A44805FDC19C6CF0CF214A6 /* JGProgressHUDRingIndicatorView.h */,
+				FBDDC7AE488008D5AD1861A04C9375BD /* JGProgressHUDRingIndicatorView.m */,
+				B6845A4C68AC8C04217D4174D15F70B4 /* JGProgressHUDShadow.h */,
+				723B35201D26AA18FB1C494826D74DE5 /* JGProgressHUDShadow.m */,
+				CBFB453556FF2077ED0E58ADA0783463 /* JGProgressHUDSuccessIndicatorView.h */,
+				CAC516163247EF9DC90CF5B7BDA44462 /* JGProgressHUDSuccessIndicatorView.m */,
+				442F786B817F4FBD0DDDE47304750EAB /* Resources */,
+				FAA68787FD0A28305BAD526D8050C934 /* Support Files */,
+			);
+			name = JGProgressHUD;
+			path = JGProgressHUD;
+			sourceTree = "<group>";
+		};
+		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B1B28F6194A27C2EB19D23D7715379 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32B1B28F6194A27C2EB19D23D7715379 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24B770BDA52FCEE18019EC2C8C26E4D0 /* AVFoundation.framework */,
+				A1B2A9835C30DAD696B89A578ECDC6E2 /* CoreImage.framework */,
+				CA27CCB26BD52731A5774567D9E18112 /* CoreMedia.framework */,
+				D432270453A899765060108692D03A1F /* CoreVideo.framework */,
+				0A9015163C2DE081798A120F6A815D39 /* Foundation.framework */,
+				AD25DA712A1F66FE9C48BCFEA7802DC8 /* GLKit.framework */,
+				B25CE0029FC2C7D04B1F402973D445DE /* ImageIO.framework */,
+				5060F3423798F84FB9F8D86CF32934ED /* QuartzCore.framework */,
+				932151771B1B00C621394162B4B95B7B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		442F786B817F4FBD0DDDE47304750EAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FB1BBB166857E8B165B2E3B24758535 /* jg_hud_error.png */,
+				C8048F2729C44F2D8CFA63F76ABF5696 /* jg_hud_error@2x.png */,
+				446212E4F5CD0DA135A0E5EB4809FFF3 /* jg_hud_error@3x.png */,
+				97B1A6D08306C4F3D86112512D6185E1 /* jg_hud_success.png */,
+				BF09344ADA15D166B5B6C709F6FCFAE6 /* jg_hud_success@2x.png */,
+				1AC8B052C130B8925CDB42BA1CED5DB4 /* jg_hud_success@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		456CEA7FC974AADB07EEF8CA5EEBB7C8 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6C6BA5E90F46970903C1C4FA64246 /* SwiftyJSON.swift */,
+				8B67D119AA1DAC04B43306709805AA3A /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 		4BEA175440689ECAF2E0E24152A574AF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +318,9 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9493D889C0D21D6B9A300B7958F5F096 /* Products */,
+				24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */,
+				B3137D34DE2CB68710A803F80B4FF88E /* Pods */,
+				98DA0AF3107EC455BF85FAE79F4BFC54 /* Products */,
 				4BEA175440689ECAF2E0E24152A574AF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -76,59 +343,188 @@
 			path = "Target Support Files/Pods-PR DRS";
 			sourceTree = "<group>";
 		};
-		9493D889C0D21D6B9A300B7958F5F096 /* Products */ = {
+		8B67D119AA1DAC04B43306709805AA3A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				316BF51193B7EBC0B386FFC9E8A2DA7C /* Pods_PR_DRS.framework */,
+				EA7B0E90F9BABE1F35F051E3A3214839 /* Info.plist */,
+				C1C420CCC04EE030AD26265E25856923 /* SwiftyJSON.modulemap */,
+				22929DE3840E32E80E58205F52C29D80 /* SwiftyJSON.xcconfig */,
+				F6AB4FA38DD3BBA07A3EFD04FBFC58E2 /* SwiftyJSON-dummy.m */,
+				F6A8A909E697A15DCAF75044F7956BF5 /* SwiftyJSON-prefix.pch */,
+				A11C7564A4DE5D749F54A2FF96E8D1D2 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		98DA0AF3107EC455BF85FAE79F4BFC54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1C36A9C7BB0733FBAA81150518A08C /* IPDFCameraViewController.framework */,
+				BDC7703C517F06D37522BFF8BEB8BC7A /* JGProgressHUD.framework */,
+				AF8729D21300EF5439B8032892B13D30 /* Pods_PR_DRS.framework */,
+				56754E470EE2027F0D33974D136A6E87 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9B4525629DE8DB2B838E601518AD76B3 /* IPDFCameraViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				435E716683C8F6FB64EB61238F6898B4 /* IPDFCameraViewController.h */,
+				A480F1070F4B9042C1380786E92C2B07 /* IPDFCameraViewController.m */,
+				0424B2B23D4139092C0C9A7DF7BA95E9 /* Support Files */,
 			);
-			name = Frameworks;
+			name = IPDFCameraViewController;
+			path = IPDFCameraViewController;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		B3137D34DE2CB68710A803F80B4FF88E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				9B4525629DE8DB2B838E601518AD76B3 /* IPDFCameraViewController */,
+				16D70769E9CCB1160C0CB886209AC3F9 /* JGProgressHUD */,
+				456CEA7FC974AADB07EEF8CA5EEBB7C8 /* SwiftyJSON */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAA68787FD0A28305BAD526D8050C934 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FC8BD4070AA0084CBCD2B8BD55C714 /* Info.plist */,
+				7D55C88ECB17D2412998FBAF19015926 /* JGProgressHUD.modulemap */,
+				B8E1B953C43EFA6D0E93BAA7F21F5626 /* JGProgressHUD.xcconfig */,
+				E8E16C3DF1A057293FDDC30D705E3344 /* JGProgressHUD-dummy.m */,
+				6FE4E513A4B86F9BD7F5A4F8224C0B39 /* JGProgressHUD-prefix.pch */,
+				DBD9B389FB6D3156D8DC86B83B5360DA /* JGProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JGProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5647B27B904A3BD2839D9AE27A20DBBE /* Headers */ = {
+		0AE078DA3A17439C2A87BD911B288EFD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FF75646181F0309DD7F1AFF48D1190 /* Pods-PR DRS-umbrella.h in Headers */,
+				C7282F6951B56F0485EC941897556B58 /* IPDFCameraViewController-umbrella.h in Headers */,
+				F4B2C89E7447474FE8028AE40DD85D8C /* IPDFCameraViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526F86AE7EE51C152E80B2AD17B2FE1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FC494ADC291215197C8C5CD0132B87 /* JGProgressHUD-Defines.h in Headers */,
+				BC4C7DAADD78F7704818BCCD5A0A6F22 /* JGProgressHUD-umbrella.h in Headers */,
+				4D98042BE049BC90B4293BFC006A22B7 /* JGProgressHUD.h in Headers */,
+				72D6F028A3D9620CAA75EEF47AB6E944 /* JGProgressHUDAnimation.h in Headers */,
+				D3C73A8F0D34070B6882F323BF6F9AA8 /* JGProgressHUDErrorIndicatorView.h in Headers */,
+				92658D186BE2D96266DB8C3B64548120 /* JGProgressHUDFadeAnimation.h in Headers */,
+				C14937C2B582737F2509646A538F0A4F /* JGProgressHUDFadeZoomAnimation.h in Headers */,
+				FB166085D21BB1A54E0ECA19B688671E /* JGProgressHUDImageIndicatorView.h in Headers */,
+				24C6C04A434B304E50438266870B9BD5 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */,
+				54A4DFD3C63113EEF00610FECC7E32A8 /* JGProgressHUDIndicatorView.h in Headers */,
+				006670083CA04EBBCB8353CDF96C056D /* JGProgressHUDPieIndicatorView.h in Headers */,
+				4837ED52A86D80AFF84771AC90A3438E /* JGProgressHUDRingIndicatorView.h in Headers */,
+				579274FB622AD27CE32EA6D922EC7961 /* JGProgressHUDShadow.h in Headers */,
+				C1705A813E99E3638610740C30CE14F2 /* JGProgressHUDSuccessIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76338C97975DE0464593B5993ED2225C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0EA7D844EC71CC78DF93DD603BBA3 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF339D91052D5939A7A8BF9F7F93FCB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD500FC7E626ABF6DACA1F7DEB74656 /* Pods-PR DRS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C882ED823E43A3DC82E6F6B1DE8235BC /* Pods-PR DRS */ = {
+		2E03D0814E1E093332D554182C4CF43C /* IPDFCameraViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C64AD0E36FBCB286121863122104EADA /* Build configuration list for PBXNativeTarget "Pods-PR DRS" */;
+			buildConfigurationList = 464B92E410C98114670EA1420C1A740A /* Build configuration list for PBXNativeTarget "IPDFCameraViewController" */;
 			buildPhases = (
-				51D3D6C87D5C1CB1D57A13C966EB6837 /* Sources */,
-				1804AA5A628AF59D5EEB69FDD04C2D40 /* Frameworks */,
-				5647B27B904A3BD2839D9AE27A20DBBE /* Headers */,
+				437C1FB6E87052553FA4FD862C291DD5 /* Sources */,
+				A16052DDA952B48B0D67D9522BB6532B /* Frameworks */,
+				0AE078DA3A17439C2A87BD911B288EFD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = IPDFCameraViewController;
+			productName = IPDFCameraViewController;
+			productReference = 6B1C36A9C7BB0733FBAA81150518A08C /* IPDFCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EC79DCC536C0FB3E49EB7DD3DBDD1CD /* Pods-PR DRS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430E3E9E16C97798B54F6F653BD34B92 /* Build configuration list for PBXNativeTarget "Pods-PR DRS" */;
+			buildPhases = (
+				FE5288FBEDCF1E7E7FEAA2F12D1578CA /* Sources */,
+				9458C1C67E57060B513303C0DA8AFA04 /* Frameworks */,
+				AF339D91052D5939A7A8BF9F7F93FCB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54B744AE12074FFDA562010ACFE7BDC9 /* PBXTargetDependency */,
+				1BD23BFCE8C49B9841DE30B9163F0B72 /* PBXTargetDependency */,
+				7770F7E6811904C65F4481B4FF6875B7 /* PBXTargetDependency */,
+			);
 			name = "Pods-PR DRS";
 			productName = "Pods-PR DRS";
-			productReference = 316BF51193B7EBC0B386FFC9E8A2DA7C /* Pods_PR_DRS.framework */;
+			productReference = AF8729D21300EF5439B8032892B13D30 /* Pods_PR_DRS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		608D70C470DD938024DF8CC80DC93BFF /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EE3A3294C161C39CD1C7A757745E79 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3980B67481535C8A80E8AAAF1ECB9872 /* Sources */,
+				FDD08A254F81D9B0283A08EAFE0C4785 /* Frameworks */,
+				76338C97975DE0464593B5993ED2225C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 56754E470EE2027F0D33974D136A6E87 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F2C48CA562773165FC94C4BDA600CB8 /* JGProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B6B22F197F16A72F4DF0FF6D9E98306 /* Build configuration list for PBXNativeTarget "JGProgressHUD" */;
+			buildPhases = (
+				3FBBA8437B1F41B2EAF656AF949AF248 /* Sources */,
+				37AC042E5C9F7E7A00F3B87EB10DEB49 /* Frameworks */,
+				526F86AE7EE51C152E80B2AD17B2FE1E /* Headers */,
+				F531853EE64A67B1EF91D347EF7BFC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGProgressHUD;
+			productName = JGProgressHUD;
+			productReference = BDC7703C517F06D37522BFF8BEB8BC7A /* JGProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,97 +544,106 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9493D889C0D21D6B9A300B7958F5F096 /* Products */;
+			productRefGroup = 98DA0AF3107EC455BF85FAE79F4BFC54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C882ED823E43A3DC82E6F6B1DE8235BC /* Pods-PR DRS */,
+				2E03D0814E1E093332D554182C4CF43C /* IPDFCameraViewController */,
+				9F2C48CA562773165FC94C4BDA600CB8 /* JGProgressHUD */,
+				3EC79DCC536C0FB3E49EB7DD3DBDD1CD /* Pods-PR DRS */,
+				608D70C470DD938024DF8CC80DC93BFF /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		F531853EE64A67B1EF91D347EF7BFC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FFBF9CF525041967FEFB1F1C42E5CB /* jg_hud_error.png in Resources */,
+				A1A7F35C9795D3F485AE056CC1C006E7 /* jg_hud_error@2x.png in Resources */,
+				7FAB4AF93213FFA9369E238F207CFD36 /* jg_hud_error@3x.png in Resources */,
+				01E784EF8E348FCDD0B6B566A0ED7704 /* jg_hud_success.png in Resources */,
+				36FECB79A4EC4558774C2C6C7BF1D22C /* jg_hud_success@2x.png in Resources */,
+				802CD12B7ADA90E34BD6A34B50DD867D /* jg_hud_success@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		51D3D6C87D5C1CB1D57A13C966EB6837 /* Sources */ = {
+		3980B67481535C8A80E8AAAF1ECB9872 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE93C0B78B8273DD36ED852604F874DF /* Pods-PR DRS-dummy.m in Sources */,
+				9B66D002A8FCE83414C688FE05EC7478 /* SwiftyJSON-dummy.m in Sources */,
+				03F2B415369BC32FE008EBA6080A94A1 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBBA8437B1F41B2EAF656AF949AF248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE080072076C183E6A61DDCC1D7BA8 /* JGProgressHUD-dummy.m in Sources */,
+				1425E14677E3EB1E2161902BD072D778 /* JGProgressHUD.m in Sources */,
+				7217359DE16E0EB6A8F62A10C53E7AF5 /* JGProgressHUDAnimation.m in Sources */,
+				77DC4C531B6C5863D948D8AB196D743A /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				5EA91EE17DB5E996DB3364C48CAAD1E9 /* JGProgressHUDFadeAnimation.m in Sources */,
+				80848982010927FBC4223D4F3230429D /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				224CE7708D73AC47187E3C502B92313E /* JGProgressHUDImageIndicatorView.m in Sources */,
+				F71845788EBB3713A2DBE2E2FFFB4C1F /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				DC52ACA0AFC3F54507EDBC26C545FEB0 /* JGProgressHUDIndicatorView.m in Sources */,
+				2247A6900C00E630BDD11E39D66E04A0 /* JGProgressHUDPieIndicatorView.m in Sources */,
+				D49255E3560DFD9822EBF35B78A7A18B /* JGProgressHUDRingIndicatorView.m in Sources */,
+				E5CB568F41666F371974833E529B1D14 /* JGProgressHUDShadow.m in Sources */,
+				58C7723C825970DB6A486D3650C8C887 /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C1FB6E87052553FA4FD862C291DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E398879122560D99B5C132CB9145E0BC /* IPDFCameraViewController-dummy.m in Sources */,
+				F9A2AB6DD65D73DD47B61F31B5853FA5 /* IPDFCameraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5288FBEDCF1E7E7FEAA2F12D1578CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E628EBD2A56C22229318EBD7C8354 /* Pods-PR DRS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1BD23BFCE8C49B9841DE30B9163F0B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGProgressHUD;
+			target = 9F2C48CA562773165FC94C4BDA600CB8 /* JGProgressHUD */;
+			targetProxy = 98CB379E65CAB13178E48EAC161F9490 /* PBXContainerItemProxy */;
+		};
+		54B744AE12074FFDA562010ACFE7BDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IPDFCameraViewController;
+			target = 2E03D0814E1E093332D554182C4CF43C /* IPDFCameraViewController */;
+			targetProxy = 3D2F387B3E5C9A8EDCF917E6D286D586 /* PBXContainerItemProxy */;
+		};
+		7770F7E6811904C65F4481B4FF6875B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 608D70C470DD938024DF8CC80DC93BFF /* SwiftyJSON */;
+			targetProxy = 31041BB2E775A5E9B22054A616BD43B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		029BEB0C53FC9323ADC54838D9FCA688 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 924E9EAE5AE6846F868F0FE9D8867B33 /* Pods-PR DRS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PR DRS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PR DRS/Pods-PR DRS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		24A984915FA55CB17341CA3B35B82171 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ABB9531661650FA7AEE8F9D92DEA40A /* Pods-PR DRS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PR DRS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PR DRS/Pods-PR DRS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,7 +706,268 @@
 			};
 			name = Debug;
 		};
-		703082A85162812D3B777E668767AD25 /* Release */ = {
+		30472057DD57DDF992568999E64BC385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75FF60A2F98E7E0B8B078CC0F0E807A /* IPDFCameraViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IPDFCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController.modulemap";
+				PRODUCT_MODULE_NAME = IPDFCameraViewController;
+				PRODUCT_NAME = IPDFCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BFF80ACB79ADF717424636AF54EE1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924E9EAE5AE6846F868F0FE9D8867B33 /* Pods-PR DRS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PR DRS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PR DRS/Pods-PR DRS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FACA3D999A584FF6276B6B0AE007C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22929DE3840E32E80E58205F52C29D80 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		726BEDFA6EAB05ED6C10BE04AE09E5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75FF60A2F98E7E0B8B078CC0F0E807A /* IPDFCameraViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IPDFCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController.modulemap";
+				PRODUCT_MODULE_NAME = IPDFCameraViewController;
+				PRODUCT_NAME = IPDFCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		856E057F64446857FA32143FB279C11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E1B953C43EFA6D0E93BAA7F21F5626 /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D70D0237D451726D7471BFA1050EEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22929DE3840E32E80E58205F52C29D80 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C18BE157B9E53EFDC35493CA99615BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABB9531661650FA7AEE8F9D92DEA40A /* Pods-PR DRS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PR DRS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PR DRS/Pods-PR DRS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD1B73145AD5F8E009F199EDFCB5DB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E1B953C43EFA6D0E93BAA7F21F5626 /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +1017,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -365,17 +1031,44 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
-				703082A85162812D3B777E668767AD25 /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C64AD0E36FBCB286121863122104EADA /* Build configuration list for PBXNativeTarget "Pods-PR DRS" */ = {
+		430E3E9E16C97798B54F6F653BD34B92 /* Build configuration list for PBXNativeTarget "Pods-PR DRS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				029BEB0C53FC9323ADC54838D9FCA688 /* Debug */,
-				24A984915FA55CB17341CA3B35B82171 /* Release */,
+				5BFF80ACB79ADF717424636AF54EE1D4 /* Debug */,
+				C18BE157B9E53EFDC35493CA99615BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464B92E410C98114670EA1420C1A740A /* Build configuration list for PBXNativeTarget "IPDFCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726BEDFA6EAB05ED6C10BE04AE09E5A4 /* Debug */,
+				30472057DD57DDF992568999E64BC385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EE3A3294C161C39CD1C7A757745E79 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FACA3D999A584FF6276B6B0AE007C4C /* Debug */,
+				8D70D0237D451726D7471BFA1050EEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B6B22F197F16A72F4DF0FF6D9E98306 /* Build configuration list for PBXNativeTarget "JGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856E057F64446857FA32143FB279C11F /* Debug */,
+				DD1B73145AD5F8E009F199EDFCB5DB7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

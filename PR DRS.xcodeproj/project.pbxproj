@@ -13,6 +13,14 @@
 		35F6E3C0209A4C9A0014F86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F6E3BE209A4C9A0014F86F /* Main.storyboard */; };
 		35F6E3C2209A4C9B0014F86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F6E3C1209A4C9B0014F86F /* Assets.xcassets */; };
 		35F6E3C5209A4C9B0014F86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F6E3C3209A4C9B0014F86F /* LaunchScreen.storyboard */; };
+		35F6E3CF209A4E8C0014F86F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3CE209A4E8C0014F86F /* HomeViewController.swift */; };
+		35F6E3D1209A57570014F86F /* SendIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D0209A57570014F86F /* SendIDViewController.swift */; };
+		35F6E3D9209A5AEF0014F86F /* LogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D3209A5AEF0014F86F /* LogUtils.swift */; };
+		35F6E3DA209A5AEF0014F86F /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D4209A5AEF0014F86F /* SharedManager.swift */; };
+		35F6E3DB209A5AEF0014F86F /* TextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D5209A5AEF0014F86F /* TextUtils.swift */; };
+		35F6E3DC209A5AEF0014F86F /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D6209A5AEF0014F86F /* UIManager.swift */; };
+		35F6E3DD209A5AEF0014F86F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D8209A5AEF0014F86F /* Global.swift */; };
+		35F6E3E0209A5FA70014F86F /* PropertyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3DF209A5FA70014F86F /* PropertyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		35F6E3C1209A4C9B0014F86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F6E3C4209A4C9B0014F86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35F6E3C6209A4C9B0014F86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F6E3CE209A4E8C0014F86F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		35F6E3D0209A57570014F86F /* SendIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendIDViewController.swift; sourceTree = "<group>"; };
+		35F6E3D3209A5AEF0014F86F /* LogUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtils.swift; sourceTree = "<group>"; };
+		35F6E3D4209A5AEF0014F86F /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
+		35F6E3D5209A5AEF0014F86F /* TextUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextUtils.swift; sourceTree = "<group>"; };
+		35F6E3D6209A5AEF0014F86F /* UIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		35F6E3D8209A5AEF0014F86F /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		35F6E3DF209A5FA70014F86F /* PropertyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCollectionViewCell.swift; sourceTree = "<group>"; };
 		B93EEE968CAD59EC2A5AA762 /* Pods-PR DRS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PR DRS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PR DRS/Pods-PR DRS.debug.xcconfig"; sourceTree = "<group>"; };
 		D60E67C5AC7EBF43EB9CDC64 /* Pods-PR DRS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PR DRS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PR DRS/Pods-PR DRS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,12 +79,60 @@
 			children = (
 				35F6E3BA209A4C9A0014F86F /* AppDelegate.swift */,
 				35F6E3BC209A4C9A0014F86F /* ViewController.swift */,
+				35F6E3CD209A4E6A0014F86F /* Model */,
+				35F6E3DE209A5F220014F86F /* View */,
+				35F6E3CC209A4E6A0014F86F /* Controller */,
 				35F6E3BE209A4C9A0014F86F /* Main.storyboard */,
 				35F6E3C1209A4C9B0014F86F /* Assets.xcassets */,
 				35F6E3C3209A4C9B0014F86F /* LaunchScreen.storyboard */,
 				35F6E3C6209A4C9B0014F86F /* Info.plist */,
 			);
 			path = "PR DRS";
+			sourceTree = "<group>";
+		};
+		35F6E3CC209A4E6A0014F86F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E3CE209A4E8C0014F86F /* HomeViewController.swift */,
+				35F6E3D0209A57570014F86F /* SendIDViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35F6E3CD209A4E6A0014F86F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E3D7209A5AEF0014F86F /* Global */,
+				35F6E3D2209A5AEF0014F86F /* Managers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35F6E3D2209A5AEF0014F86F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E3D3209A5AEF0014F86F /* LogUtils.swift */,
+				35F6E3D4209A5AEF0014F86F /* SharedManager.swift */,
+				35F6E3D5209A5AEF0014F86F /* TextUtils.swift */,
+				35F6E3D6209A5AEF0014F86F /* UIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		35F6E3D7209A5AEF0014F86F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E3D8209A5AEF0014F86F /* Global.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		35F6E3DE209A5F220014F86F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35F6E3DF209A5FA70014F86F /* PropertyCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		95F820DBB1EE36FC10850226 /* Frameworks */ = {
@@ -99,6 +163,7 @@
 				35F6E3B3209A4C9A0014F86F /* Sources */,
 				35F6E3B4209A4C9A0014F86F /* Frameworks */,
 				35F6E3B5209A4C9A0014F86F /* Resources */,
+				3798B6279FBB351559D5D087 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +221,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3798B6279FBB351559D5D087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PR DRS/Pods-PR DRS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IPDFCameraViewController/IPDFCameraViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IPDFCameraViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PR DRS/Pods-PR DRS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F80A89AA2C475875935B574E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,8 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F6E3DA209A5AEF0014F86F /* SharedManager.swift in Sources */,
+				35F6E3D9209A5AEF0014F86F /* LogUtils.swift in Sources */,
 				35F6E3BD209A4C9A0014F86F /* ViewController.swift in Sources */,
+				35F6E3DC209A5AEF0014F86F /* UIManager.swift in Sources */,
 				35F6E3BB209A4C9A0014F86F /* AppDelegate.swift in Sources */,
+				35F6E3CF209A4E8C0014F86F /* HomeViewController.swift in Sources */,
+				35F6E3E0209A5FA70014F86F /* PropertyCollectionViewCell.swift in Sources */,
+				35F6E3D1209A57570014F86F /* SendIDViewController.swift in Sources */,
+				35F6E3DB209A5AEF0014F86F /* TextUtils.swift in Sources */,
+				35F6E3DD209A5AEF0014F86F /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +423,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5RTAUPT72;
 				INFOPLIST_FILE = "PR DRS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tip.PR-DRS";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.categon.categonapp02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,9 +443,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5RTAUPT72;
 				INFOPLIST_FILE = "PR DRS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tip.PR-DRS";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.categon.categonapp02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

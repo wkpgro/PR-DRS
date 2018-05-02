@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: 92174af46f8405882399ebfd43333b9bdf39f68d
+PODS:
+  - IPDFCameraViewController (0.0.1)
+  - JGProgressHUD (2.0.2)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - IPDFCameraViewController
+  - JGProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IPDFCameraViewController
+    - JGProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  IPDFCameraViewController: c7e346c760d39ed7a137121bedfcecfde041cde6
+  JGProgressHUD: bf75da151936cfd3c9b674afb17e8a5df2e14a7d
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: ab3fe3377c595f97063737179963e1664eeb1e10
 
 COCOAPODS: 1.5.0

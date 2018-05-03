@@ -55,7 +55,7 @@ class TextUtils: NSObject {
         return dateString
     }
     
-    func getTimeStamp(_ date: Date) -> String {
+    static func getTimeStamp(_ date: Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyyMMddHHmmss"
         let dateString = dateFormatter.string(from: date)

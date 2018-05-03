@@ -17,6 +17,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var m_containView: IPDFCameraViewController!
     var m_captureImage: UIImage?
     @IBOutlet weak var m_captureBtn: UIButton!
+    var delegate: MainViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,9 +80,11 @@ class HomeViewController: UIViewController {
             DispatchQueue.main.async {
                 let imgData = captureImage as? NSData
                 self.m_captureImage = UIImage(data: (imgData! as Data))
-                UIView.setAnimationsEnabled(false)
-                self.performSegue(withIdentifier: "ToSendId", sender: nil)
-                UIView.setAnimationsEnabled(true)
+                self.delegate?.onTakePhoto(photo: self.m_captureImage!)
+                self.navigationController?.popViewController(animated: true)
+//                UIView.setAnimationsEnabled(false)
+//                self.performSegue(withIdentifier: "ToSendId", sender: nil)
+//                UIView.setAnimationsEnabled(true)
             }
         }
     }

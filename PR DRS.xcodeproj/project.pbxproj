@@ -21,6 +21,10 @@
 		35F6E3DC209A5AEF0014F86F /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D6209A5AEF0014F86F /* UIManager.swift */; };
 		35F6E3DD209A5AEF0014F86F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3D8209A5AEF0014F86F /* Global.swift */; };
 		35F6E3E0209A5FA70014F86F /* PropertyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3DF209A5FA70014F86F /* PropertyCollectionViewCell.swift */; };
+		35F6E3E2209A606A0014F86F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3E1209A606A0014F86F /* MainViewController.swift */; };
+		35F6E3E4209A66140014F86F /* PropertyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6E3E3209A66140014F86F /* PropertyItem.swift */; };
+		35F6E3E6209A73AF0014F86F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F6E3E5209A73AF0014F86F /* CoreLocation.framework */; };
+		35F6E3E8209A81D40014F86F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F6E3E7209A81D40014F86F /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		35F6E3D6209A5AEF0014F86F /* UIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
 		35F6E3D8209A5AEF0014F86F /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		35F6E3DF209A5FA70014F86F /* PropertyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCollectionViewCell.swift; sourceTree = "<group>"; };
+		35F6E3E1209A606A0014F86F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		35F6E3E3209A66140014F86F /* PropertyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyItem.swift; sourceTree = "<group>"; };
+		35F6E3E5209A73AF0014F86F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		35F6E3E7209A81D40014F86F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B93EEE968CAD59EC2A5AA762 /* Pods-PR DRS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PR DRS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PR DRS/Pods-PR DRS.debug.xcconfig"; sourceTree = "<group>"; };
 		D60E67C5AC7EBF43EB9CDC64 /* Pods-PR DRS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PR DRS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PR DRS/Pods-PR DRS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F6E3E8209A81D40014F86F /* MessageUI.framework in Frameworks */,
+				35F6E3E6209A73AF0014F86F /* CoreLocation.framework in Frameworks */,
 				25FB307C3DFF5FDE41FE52CC /* Pods_PR_DRS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +105,7 @@
 			children = (
 				35F6E3CE209A4E8C0014F86F /* HomeViewController.swift */,
 				35F6E3D0209A57570014F86F /* SendIDViewController.swift */,
+				35F6E3E1209A606A0014F86F /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,6 +113,7 @@
 		35F6E3CD209A4E6A0014F86F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				35F6E3E3209A66140014F86F /* PropertyItem.swift */,
 				35F6E3D7209A5AEF0014F86F /* Global */,
 				35F6E3D2209A5AEF0014F86F /* Managers */,
 			);
@@ -138,6 +150,8 @@
 		95F820DBB1EE36FC10850226 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35F6E3E7209A81D40014F86F /* MessageUI.framework */,
+				35F6E3E5209A73AF0014F86F /* CoreLocation.framework */,
 				0BBA40F483B72DA1DADAA4EB /* Pods_PR_DRS.framework */,
 			);
 			name = Frameworks;
@@ -269,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F6E3DA209A5AEF0014F86F /* SharedManager.swift in Sources */,
+				35F6E3E4209A66140014F86F /* PropertyItem.swift in Sources */,
+				35F6E3E2209A606A0014F86F /* MainViewController.swift in Sources */,
 				35F6E3D9209A5AEF0014F86F /* LogUtils.swift in Sources */,
 				35F6E3BD209A4C9A0014F86F /* ViewController.swift in Sources */,
 				35F6E3DC209A5AEF0014F86F /* UIManager.swift in Sources */,
